@@ -78,3 +78,14 @@ html {
     margin-top: 225px;
     color: #D4C17F;
 }
+
+.section__promo {
+    display: flex;
+    justify-content: center;
+}
+
+.promo_main {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
