@@ -117,14 +117,14 @@ header {
     color: white;
 }
 
-.placeholder {
+.place {
     position: relative;
     right: 32px;
     padding-left: 35px;
     background: url(../img/placeholder.png) no-repeat;
 }
 
-.phone_call {
+.phone {
     position: relative;
     right: 45px;
     padding-left: 35px;
@@ -190,6 +190,7 @@ header {
 
 .card {
     margin-bottom: 35px;
+    transition: all .5s;
 }
 
 .card_1 {
@@ -240,7 +241,7 @@ header {
     width: 255px;
     height: 50px;
     text-align: center;
-    color: #FFFFFF;
+    color: #413737;
     opacity: 0.2;
 }
 
@@ -256,6 +257,10 @@ header {
     color: #E7E7E7;
     margin-top: 10px;
     margin-right: 30px;
+}
+
+.note_ques {
+    text-align: center;
 }
 
 .button {
@@ -275,8 +280,81 @@ header {
     color: rgb(0, 0, 0);
 }
 
+/* Video */
+.section__video {
+    padding-bottom: 180px;
+}
 
+.container__video {
+    display: flex;
+    width: 719px;
+    height: 650px;
+    background: linear-gradient(0deg, rgba(36, 43, 51, 0.8), rgba(36, 43, 51, 0.8)), url(../img/video.png) center / cover;
+    margin: auto;
+}
 
+.video_play {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    cursor: pointer;
+}
 
+/* Map */
+.map {
+    margin-top: 100px;
+    margin-bottom: 180px;
+}
 
+/* Questions */
+.section__questions {
+    margin-bottom: 180px;
+}
+
+.title_ques {
+    margin-bottom: 50px;
+}
+
+.name_questions {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+/* Footer */
+.section__footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #2D343C;
+}
+
+.block_footer {
+    align-items: unset;
+}
+
+.nav_footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.link_footer {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.link_footer:hover {
+    color: tomato;
+}
+
+.span {
+    color: #D4C17F;
+}
+
+.span:hover {
+    color: tomato;
+}
+
+.social_link {
+    margin-right: 10px;
+}
 

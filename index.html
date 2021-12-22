@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="./img/mouse.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/mouse.png" type="image/x-icon">
     <title>HouseVOP</title>
 </head>
 <body>
@@ -36,8 +36,8 @@
                 в историческом центре</h1>
             <div class="promo_mouse"></div>
             <div class="promo_cont">
-                <p class="placeholder">Наб. реки Фонтанки 10-15</p>
-                <p class="phone_call">8 (812) 123-45-67</p>
+                <p class="placeholder place">Наб. реки Фонтанки 10-15</p>
+                <p class="phone_call phone">8 (812) 123-45-67</p>
             </div>
         </div>
     </section>
@@ -45,21 +45,21 @@
     <section class="section__testimonials">
         <div class="container_testimonials block">
             <div class="rec">
-                <img src="./img/bench.svg" alt="картинка" class="rec_img">
+                <img src="/img/bench.svg" alt="картинка" class="rec_img">
                 <p class="rec_info info_1">Рядом исторические парки и скверы</p>
             </div>
             <div class="rec">
-                <img src="./img/building.svg" alt="картинка" class="rec_img">
+                <img src="/img/building.svg" alt="картинка" class="rec_img">
                 <p class="rec_info">Полностью
                     обустроенный</p>
             </div>
             <div class="rec">
-                <img src="./img/fountain.svg" alt="картинка" class="rec_img">
+                <img src="/img/fountain.svg" alt="картинка" class="rec_img">
                 <p class="rec_info">10 фонтанов
                     на территории</p>
             </div>
             <div class="rec">
-                <img src="./img/bicycle.svg" alt="картинка" class="rec_img">
+                <img src="/img/bicycle.svg" alt="картинка" class="rec_img">
                 <p class="rec_info">6 км
                     велодорожек</p>
             </div>
@@ -88,7 +88,7 @@
     <!-- /.section__appartments -->
     <section class="section__connection">
         <div class="container block">
-            <div class="connection">
+            <div class="connection block_connection">
                 <h2 class="title">Хотите посмотреть?</h2>
                 <p class="con_desc">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. </p>
             </div>
@@ -102,6 +102,76 @@
         </div>
     </section>
     <!-- /.section__connection -->
+    <section class="section__video">
+        <div class="container__video">
+            <img src="/img/play-button.png" alt="пуск" class="video_play">
+        </div>
+    </section>
+    <!-- /.section__video -->
+    <section class="section__map">
+        <div class="container">
+            <h2 class="title">Район на карте</h2>
+            <div class="map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae3ac7bb2d49aed8a2c99e333d4e345554838e0d69b6509d8e55455359ffe22ed&amp;width=1110&amp;height=358&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+        </div>
+    </section>
+    <!-- /.section__map -->
+    <section class="section__questions">
+        <div class="container">
+            <div class="title title_ques">Есть вопросы?</div>
+            <form action="#" class="block block_form">
+                <p class="note note_ques">*Мы никому не передаем ваши данные. 
+                    И не сохраняем ваш номер в базу.</p>
+                <input class="input_name name_questions" type="text"  name="login" placeholder="Ваше имя">
+                <input class="input_phone" type="number" name="phone" placeholder="Ваш телефон">
+                <input class="button" type="submit" value="Посмотреть район">
+            </form>
+        </div>
+    </section>
+    <!-- /.section__questions -->
+    <section class="section__footer">
+        <div class="container block block_footer">
+            <div class="logo_header">
+                <a href="/index.html" class="logo_link">HouseVOP</a>
+                <p class="logo_sub">ЖИЛОЙ КОМПЛЕКС</p>
+            </div>
+            <nav class="nav_footer">
+                <a href="#" class="nav_link link_footer">О комплексе</a>
+                <a href="#" class="nav_link link_footer">Район</a>
+                <a href="#" class="nav_link link_footer">Каталог квартир</a>
+                <a href="#" class="nav_link link_footer">Ипотека</a>
+                <a href="#" class="nav_link link_footer">Контакты</a>
+            </nav>
+            <nav class="nav_footer">
+                <a href="#" class="nav_link link_footer">О комплексе</a>
+                <a href="#" class="nav_link link_footer">Район</a>
+                <a href="#" class="nav_link link_footer">Каталог квартир</a>
+                <a href="#" class="nav_link link_footer">Ипотека</a>
+                <a href="#" class="nav_link link_footer">Контакты</a>
+            </nav>
+            <div class="contacts">
+                <p class="placeholder link_footer">Адрес: Наб. реки Фонтанки 10-15</p>
+                <p class="phone_call link_footer">Телефон: 8 (812) 123-45-67</p>
+                <p class="time link_footer">Отдел продаж: 10:00 - 20:00</p>
+                <p class="mail link_footer">E-mail: <span class="span">vip@housevip.ru</span></p>
+            <div class="social_network">
+                <a href="#" class="social_link">
+                    <img src="/img/YouTube.png" alt="соц-ссылки" class="img-social">
+                </a>
+                <a href="#" class="social_link">
+                    <img src="/img/vk.png" alt="соц-ссылки" class="img-social">
+                </a>
+                <a href="#" class="social_link">
+                    <img src="/img/facebook.png" alt="соц-ссылки" class="img-social">
+                </a>
+                <a href="#" class="social_link">
+                    <img src="/img/instagram.png" alt="соц-ссылки" class="img-social">
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- /.section__footer -->
 
 
 
