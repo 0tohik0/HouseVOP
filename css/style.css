@@ -49,6 +49,8 @@ header {
 
 .logo_link:hover {
     color: #D4C17F;
+    font-size: 37px;
+    transition-duration: 500ms;
 }
 
 .logo_sub {
@@ -73,6 +75,7 @@ header {
 
 .nav_link:hover {
     color: #D4C17F;
+    transition-duration: 500ms;
 }
 
 /* Promo */
@@ -300,6 +303,12 @@ header {
     cursor: pointer;
 }
 
+.video_play:hover {
+    width: 105px;
+    height: 105px;
+    transition: all 1s;
+}
+
 /* Map */
 .map {
     margin-top: 100px;
@@ -344,6 +353,7 @@ header {
 
 .link_footer:hover {
     color: tomato;
+    transition-duration: 500ms;
 }
 
 .span {
@@ -352,6 +362,7 @@ header {
 
 .span:hover {
     color: tomato;
+    transition-duration: 500ms;
 }
 
 .social_link {
